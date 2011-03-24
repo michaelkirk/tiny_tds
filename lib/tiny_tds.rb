@@ -4,11 +4,8 @@ require 'bigdecimal'
 require 'rational' unless RUBY_VERSION >= '1.9.2'
 
 require 'tiny_tds/error'
-require 'tiny_tds/tiny_tds'
 require 'tiny_tds/client'
 require 'tiny_tds/result'
-
-require 'tiny_tds/tiny_tds'
 
 
 # = TinyTds
